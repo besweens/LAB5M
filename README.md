@@ -1,7 +1,7 @@
 # LAB5M
-COS285 Fall 2023 LAB5 (Monday Session)
+COS285 Fall 2023 LAB5 (Monday Session)\n
 
-Project Manager: Ben
-  Subtask 1: Herve
-  Subtask 2: Zachary
+Project Manager: Ben\n
+  Subtask 1: Herve\n
+  Subtask 2: Zachary\n
   Subtask 3: Audrey
