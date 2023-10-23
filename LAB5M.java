@@ -1,3 +1,8 @@
+/**
+ * LAB5M
+ *
+ */
+
 import java.io.IOException;
 
 public class LAB5M {
