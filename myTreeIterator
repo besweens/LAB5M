@@ -1,0 +1,21 @@
+public class myTreeIterator implements ITreeIterator { 
+
+	@Override
+    public int[] SequenceArray(myBinarySearchTree bst) {
+        if (bst == null || bst.root == null) {
+            return new int[0]; 
+        }
+        int[] result = new int[bst.getSize()];
+        int index = 0;
+        inorderTraversal(bst.root, result, index);
+        return result;
+}
+	 private void inorderTraversal(myBinarySearchTree.Node node, int[] result, int index) {
+	        if (node != null) {
+	        	index = inorderTraversial(node.left, result, index);
+	        	result[index] = node.data;
+	        	index++;
+	        	index = inorderTraversial(node.right, result, index);
+	}		
+  }
+}
